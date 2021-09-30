@@ -1,0 +1,10 @@
+file1 = open('C:/Users/win10/Desktop/test.txt','a',encoding = 'utf-8',)
+file1.write('张无忌\n')
+
+f = open('C:/Users/win10/Desktop/1.txt','w',encoding='utf-8')
+f.write('难念的经')
+f.close()
+f = open('C:/Users/win10/Desktop/1.txt','r',encoding='utf-8')
+neirong = f.read()
+print(neirong)
+f.close()
